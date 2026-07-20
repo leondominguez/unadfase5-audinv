@@ -6,6 +6,25 @@
 ### Fase 5 - Evaluación Final POA
 
 ---
+# Clonacion de Proyecto
+
+## Clonar el repositorio desde GitHub (usando SSH)
+- git clone git@github.com:leondominguez/unadfase5-audinv.git
+- https://github.com/leondominguez/unadfase5-audinv.git
+
+## Entrar al directorio del proyecto
+cd unadfase5-audinv
+
+## Verificar el remoto configurado
+git remote -v
+
+## Traer cambios del repositorio remoto a tu copia local
+git pull origin main
+
+## Subir cambios locales reemplazando el remoto
+git push origin main --force
+
+---
 
 ## 📋 Descripción del problema
 
@@ -34,5 +53,5 @@ La información se encuentra en una matriz con el formato:
 ## 📂 Contenido del repositorio
 
 - `problema3_inventario.py` → Código fuente en Python con menú interactivo y validaciones.  
-- `Informe_Fase5.pdf` → Documento con tabla de requerimientos, pruebas de escritorio y explicación del código.  
-- `Diagramaaudinv.png` → Imagen del diagrama de flujo del programa.  
+- `Informe_Fase5.pdf` → Documento con tabla de requerimientos, pruebas de escritorio y explicación del código del programa.  
+- `Diagramaaudinv.png` → Imagen del diagrama de flujo del programa.

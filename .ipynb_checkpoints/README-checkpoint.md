@@ -6,6 +6,25 @@
 ### Fase 5 - Evaluación Final POA
 
 ---
+# Clonacion de Proyecto
+
+## Clonar el repositorio desde GitHub (usando SSH)
+- git clone git@github.com:leondominguez/unadfase5-audinv.git
+- https://github.com/leondominguez/unadfase5-audinv.git
+
+## Entrar al directorio del proyecto
+cd unadfase5-audinv
+
+## Verificar el remoto configurado
+git remote -v
+
+## Traer cambios del repositorio remoto a tu copia local
+git pull origin main
+
+## Subir cambios locales reemplazando el remoto
+git push origin main --force
+
+---
 
 ## 📋 Descripción del problema
 
